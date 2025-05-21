@@ -16,6 +16,10 @@ footer {
 ::-moz-selection {
   background: #5FE800; }
 
+.__exito {
+  background: #aefc79;
+}
+
 .__portada {
   position: relative;
   padding: 8rem 0 3rem 0;
