@@ -20,6 +20,56 @@ footer {
   background: #aefc79;
 }
 
+.__progrma2025 .__disto {
+  background-color: #EEF9E4;
+  padding: 50px 80px;
+  border-radius: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 17px;
+}
+
+.__progrma2025 .__disto table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.__progrma2025 .__disto tr {
+  vertical-align: top;
+}
+
+.__progrma2025 .__disto tr .hora {
+  color: #5FE000;
+  padding-right: 35px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 120px; /* Ancho fijo */
+  min-width: 120px; /* Mínimo ancho garantizado */
+}
+
+.__progrma2025 .__disto tr .detalle {
+  padding-bottom: 10px;
+  vertical-align: top;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 767px) {
+  .__progrma2025 .__disto {
+    padding: 20px;
+  }
+  
+  .__progrma2025 .__disto tr .hora {
+    width: 100px; /* Menor ancho en móviles */
+    min-width: 80px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+}
+
 .__portada {
   position: relative;
   padding: 8rem 0 3rem 0;
@@ -970,7 +1020,7 @@ footer {
     color: #582D85;
     margin: 0px 15px; }
     .__confe2025 .__pontgen img {
-      width: 300px; }
+      width: 200px; }
     .__confe2025 .__pontgen h4 {
       margin-top: 15px;
       font-size: 30px; }
